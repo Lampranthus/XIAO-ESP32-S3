@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SK_3296S_01_L1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XKB Connectivity", "SK-3296S-01-L1" (!) = "", "SK3296S01L1", "Other", "", "", "Toggle Switches SMD RoHS", "https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf", "1.4 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DTST_63K_V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diptronics", "DTST-63K-V" (!) = "", "DTST63KV", "Other", "", "", "Tactile Switches Radial Taping 6*6", "https://www.weltroniker.de/DB-Pool/DIP_DTST6.pdf", "7 mm"
+END_PART
+
+END.

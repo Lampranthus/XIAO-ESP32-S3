@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DTST-63K-V"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-13-06:32:17)
+    (mountForm default
+        (footprintRef "DTST63KV")
+        (spec "System")
+    )
+)

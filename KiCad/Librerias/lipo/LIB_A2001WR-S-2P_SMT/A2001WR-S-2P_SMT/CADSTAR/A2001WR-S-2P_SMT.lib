@@ -1,0 +1,15 @@
+.A2001WR-S-2P_SMT :1 ;Number of Positions: 2 Position. Pitch: 2 mm (0.079 in). Number of Rows: 1 Row. Mounting Angle: Right Angle. Contact Gender: Pin (Male).
+A2001WRS2PSMT
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="MP1" 4="MP2"
+*MXP 4
+*DFN A2001WR-S-2P_SMT
+~!Mouser Part Number (763-A2001WRS2P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-S-2P-SMT?qs=gZXFycFWdAPUQzSaqn%252B%2FCg%3D%3D)
+~!Manufacturer_Name (Newhaven Display)
+~!Manufacturer_Part_Number (A2001WR-S-2P SMT)
+~!Link Datasheet (https://newhavendisplay.com/content/specs/A2001.pdf)
+~!Height (5.75mm)
+A2001WR-S-2P_SMT
+1.1!U 2.1!U 3.1!U 4.1!U 

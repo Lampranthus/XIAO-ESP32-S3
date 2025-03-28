@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DTST63KV"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DTST63KV")
+        (spec "default")
+    )
+)

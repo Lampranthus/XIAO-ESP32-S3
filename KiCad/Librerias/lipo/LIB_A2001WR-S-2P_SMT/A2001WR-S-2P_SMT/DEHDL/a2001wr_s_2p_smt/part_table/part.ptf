@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A2001WR_S_2P_SMT'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Newhaven Display", "A2001WR-S-2P SMT" (!) = "", "A2001WRS2PSMT", "Other", "763-A2001WRS2P", "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-S-2P-SMT?qs=gZXFycFWdAPUQzSaqn%252B%2FCg%3D%3D", "Number of Positions: 2 Position. Pitch: 2 mm (0.079 in). Number of Rows: 1 Row. Mounting Angle: Right Angle. Contact Gender: Pin (Male).", "https://newhavendisplay.com/content/specs/A2001.pdf", "5.75 mm"
+END_PART
+
+END.

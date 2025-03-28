@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A2001WR-S-2P_SMT
+D Number of Positions: 2 Position. Pitch: 2 mm (0.079 in). Number of Rows: 1 Row. Mounting Angle: Right Angle. Contact Gender: Pin (Male).
+K
+F https://newhavendisplay.com/content/specs/A2001.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Diptronics
+PartNumber=DTST-63K-V
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2024-07-13 06:32:17
+Downloaded=2025-03-28 02:04:42
+3D=Y

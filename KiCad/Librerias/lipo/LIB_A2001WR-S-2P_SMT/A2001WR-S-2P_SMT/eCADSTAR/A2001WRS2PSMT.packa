@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "A2001WR-S-2P_SMT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-03-06-05:57:49)
+    (mountForm default
+        (footprintRef "A2001WRS2PSMT")
+        (spec "System")
+    )
+)

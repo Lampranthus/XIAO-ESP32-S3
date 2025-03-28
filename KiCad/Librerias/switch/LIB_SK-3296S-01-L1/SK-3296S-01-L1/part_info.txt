@@ -1,0 +1,9 @@
+Manufacturer=XKB Connectivity
+PartNumber=SK-3296S-01-L1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=7
+Version=5.4
+Released=2019-08-31 22:27:27
+Downloaded=2025-03-28 00:34:33
+3D=Y

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "A2001WRS2PSMT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "A2001WRS2PSMT")
+        (spec "default")
+    )
+)

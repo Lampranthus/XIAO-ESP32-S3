@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model A2001WR-S-2P_SMT
+#/1893237/1303550/2.50/4/3/Connector
+DEF A2001WR-S-2P_SMT J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "A2001WR-S-2P_SMT" 750 200 50 H V L CNN
+F2 "A2001WRS2PSMT" 750 100 50 H I L CNN
+F3 "https://newhavendisplay.com/content/specs/A2001.pdf" 750 0 50 H I L CNN
+F4 "Number of Positions: 2 Position. Pitch: 2 mm (0.079 in). Number of Rows: 1 Row. Mounting Angle: Right Angle. Contact Gender: Pin (Male)." 750 -100 50 H I L CNN "Description"
+F5 "5.75" 750 -200 50 H I L CNN "Height"
+F6 "763-A2001WRS2P" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Newhaven-Display/A2001WR-S-2P-SMT?qs=gZXFycFWdAPUQzSaqn%252B%2FCg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Newhaven Display" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "A2001WR-S-2P SMT" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X MP1 3 900 -100 200 L 50 50 0 0 P
+X MP2 4 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

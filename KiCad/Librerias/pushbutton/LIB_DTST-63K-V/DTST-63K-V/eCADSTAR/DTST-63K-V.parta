@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_19755657"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-07-13-06:32:17)
+    (utime 2024-07-13-06:34:41)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "DTST-63K-V")
+)
+
+
+(pinAssign "ECS_19755657"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-07-13-06:32:17)
+    (utime 2024-07-13-06:34:41)
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19755657")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "DTST-63K-V")
+)
+
+
+(part "DTST-63K-V"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-07-13-06:32:17)
+    (utime 2024-07-13-06:34:41)
+    (packageRef "DTST-63K-V")
+    (pinAssignRef "ECS_19755657")
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "Tactile Switches Radial Taping 6*6")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Diptronics")
+    (property "Manufacturer_Part_Number" "DTST-63K-V")
+    (property "Datasheet_Link" "https://www.weltroniker.de/DB-Pool/DIP_DTST6.pdf")
+    (property "compAreaTopHeight" 7)
+)
+
+

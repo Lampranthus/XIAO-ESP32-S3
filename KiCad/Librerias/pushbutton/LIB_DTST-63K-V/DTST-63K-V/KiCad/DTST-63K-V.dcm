@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DTST-63K-V
+D Tactile Switches Radial Taping 6*6
+K
+F https://www.weltroniker.de/DB-Pool/DIP_DTST6.pdf
+$ENDCMP
+#
+#End Doc Library

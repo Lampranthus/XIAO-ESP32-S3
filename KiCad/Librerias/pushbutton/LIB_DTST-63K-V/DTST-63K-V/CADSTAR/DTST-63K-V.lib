@@ -1,0 +1,16 @@
+.DTST-63K-V :1 ;Tactile Switches Radial Taping 6*6
+DTST63KV
+*STM S
+*NGS
+*PLB 1="COM" 2="NO"
+*MXP 2
+*DFN DTST-63K-V
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Diptronics)
+~!Manufacturer_Part_Number (DTST-63K-V)
+~!Link Datasheet (https://www.weltroniker.de/DB-Pool/DIP_DTST6.pdf)
+~!Height (7mm)
+~!3D_Model (DTST-63K-V)
+DTST-63K-V
+1.1!U 2.1!U 
