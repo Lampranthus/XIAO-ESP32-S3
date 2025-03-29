@@ -469,49 +469,31 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SK-3296S-01-L1:SK-3296S-01-L1"
+		(symbol "SCH_Switch-XIAO:SK-3296S-01-L1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 21.59 7.62 0)
+			(property "Reference" "SW"
+				(at -2.6162 10.0711 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Arial")
+						(size 1.6891 1.6891)
 					)
 					(justify left top)
 				)
 			)
 			(property "Value" "SK-3296S-01-L1"
-				(at 21.59 5.08 0)
+				(at -2.6162 7.6835 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Arial")
+						(size 1.6891 1.6891)
 					)
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SK3296S01L1"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Toggle Switches SMD RoHS"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -520,75 +502,259 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.4"
-				(at 21.59 -394.92 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "RS Part Number" ""
-				(at 21.59 -494.92 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "RS Price/Stock" ""
-				(at 21.59 -594.92 0)
+			(property "Manufacturer Part" "SK-3296S-01-L1"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "XKB Connectivity"
-				(at 21.59 -694.92 0)
+			(property "Manufacturer" "XKB Connectivity(中国星坤)"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SK-3296S-01-L1"
-				(at 21.59 -794.92 0)
+			(property "Supplier Part" "C319020"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "SK-3296S-01-L1_1_1"
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK-3296S-01-L1_0_0"
 				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -10.16)
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NO"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 2.54) (xy -2.794 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 2.54) (xy -2.794 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.794 0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.794 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.54) (xy -2.794 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -2.54) (xy -2.794 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -5.08) (xy -2.794 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -5.08) (xy -2.794 -5.334)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.762) (xy 0 0.762) (xy 0 -5.842) (xy -1.524 -5.842) (xy -1.524 -4.318) (xy -0.762 -4.318)
+						(xy -0.762 -0.762) (xy -1.524 -0.762) (xy -1.524 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -4.318) (xy 2.286 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -600,13 +766,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COM"
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -618,13 +784,13 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "NC"
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -636,71 +802,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "MP1"
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP4"
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1488,28 +1600,16 @@
 		)
 	)
 	(junction
-		(at 231.14 134.62)
+		(at 209.55 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79e93198-9496-47b0-875a-2682ac29fc00")
+		(uuid "1dfb9c20-2e76-4db1-99f3-6e512db74f00")
 	)
 	(junction
 		(at 228.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b0a626f-5b96-4fed-9991-99f63b2f8088")
-	)
-	(junction
-		(at 231.14 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f49b204-24e2-4e40-816e-baebb3f4ff0f")
-	)
-	(junction
-		(at 204.47 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fb9875b-51a4-4a0a-83f4-6520d53ace67")
 	)
 	(junction
 		(at 228.6 97.79)
@@ -1522,12 +1622,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a83b6eb5-61bd-4a90-aa54-ffe7a3e086b0")
-	)
-	(junction
-		(at 231.14 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2896f4f-1e5f-468a-a764-b1f65bf7e230")
 	)
 	(wire
 		(pts
@@ -1548,16 +1642,6 @@
 			(type default)
 		)
 		(uuid "0cdaaa98-844e-4cca-b966-dd6434f69a36")
-	)
-	(wire
-		(pts
-			(xy 204.47 132.08) (xy 204.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e11f138-625b-4d94-8cc6-6656b0d6632e")
 	)
 	(wire
 		(pts
@@ -1641,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 129.54) (xy 209.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb0d9b8-e9bc-4816-853c-b6e4fdc37f08")
+	)
+	(wire
+		(pts
 			(xy 104.14 59.69) (xy 105.41 59.69)
 		)
 		(stroke
@@ -1721,6 +1815,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 129.54) (xy 209.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e360dea-33c8-4a0c-82f4-0855f6e72688")
+	)
+	(wire
+		(pts
 			(xy 81.28 39.37) (xy 81.28 40.64)
 		)
 		(stroke
@@ -1728,26 +1832,6 @@
 			(type default)
 		)
 		(uuid "8f973b37-949b-4091-a254-0147c84a386d")
-	)
-	(wire
-		(pts
-			(xy 229.87 129.54) (xy 231.14 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936bf328-3d9f-4f99-9e64-a2e2eb2643e9")
-	)
-	(wire
-		(pts
-			(xy 231.14 132.08) (xy 231.14 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f12050-42ec-4662-a0de-e917664358c6")
 	)
 	(wire
 		(pts
@@ -1771,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 140.97) (xy 231.14 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1d69fa5-3d77-4e33-a086-6860f7a3edbb")
-	)
-	(wire
-		(pts
 			(xy 201.93 43.18) (xy 201.93 44.45)
 		)
 		(stroke
@@ -1801,23 +1875,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 204.47 129.54)
+			(xy 208.28 124.46) (xy 209.55 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a59fe221-44c6-4187-8811-05e735e0456d")
-	)
-	(wire
-		(pts
-			(xy 229.87 132.08) (xy 231.14 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab000442-e93b-457e-bf35-17b60bce9e43")
+		(uuid "abdff27e-f974-45d4-9947-719bbff76828")
 	)
 	(wire
 		(pts
@@ -1831,13 +1895,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 134.62) (xy 231.14 134.62)
+			(xy 226.06 124.46) (xy 226.06 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2535769-6d32-40b5-9aaf-069a56ed93dc")
+		(uuid "bae3fa05-9cd5-4ff0-a554-827c3001d940")
 	)
 	(wire
 		(pts
@@ -1901,16 +1965,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 204.47 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d98acb5e-0e44-42e1-a311-05c146cb874a")
-	)
-	(wire
-		(pts
 			(xy 203.2 97.79) (xy 228.6 97.79)
 		)
 		(stroke
@@ -1931,26 +1985,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 134.62) (xy 231.14 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ab74be-f269-4fa1-b2c0-89e4c293c2be")
-	)
-	(wire
-		(pts
-			(xy 204.47 137.16) (xy 204.47 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d640b4-b830-4b95-a7b7-a0d43fe4bdd8")
-	)
-	(wire
-		(pts
 			(xy 226.06 91.44) (xy 228.6 91.44)
 		)
 		(stroke
@@ -1961,13 +1995,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 231.14 132.08)
+			(xy 224.79 124.46) (xy 226.06 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faf26173-e363-498a-a0e0-27e2207f12f1")
+		(uuid "f7d86b7d-3c1e-4203-8fde-b139150d768c")
 	)
 	(wire
 		(pts
@@ -2177,7 +2211,7 @@
 			)
 		)
 	)
-	(global_label "PUSH_2"
+	(global_label "PUSH_1"
 		(shape input)
 		(at 105.41 67.31 0)
 		(fields_autoplaced yes)
@@ -2199,7 +2233,7 @@
 			)
 		)
 	)
-	(global_label "PUSH_1"
+	(global_label "PUSH_2"
 		(shape input)
 		(at 105.41 71.12 0)
 		(fields_autoplaced yes)
@@ -2223,7 +2257,7 @@
 	)
 	(global_label "SWITCH_V_BATT"
 		(shape input)
-		(at 203.2 129.54 180)
+		(at 208.28 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2233,7 +2267,7 @@
 		)
 		(uuid "b2aebf65-195c-4d74-8b23-18c1c50997a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0634 129.54 0)
+			(at 191.1434 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2367,7 @@
 	)
 	(global_label "V_BATT"
 		(shape input)
-		(at 203.2 132.08 180)
+		(at 208.28 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2343,7 +2377,7 @@
 		)
 		(uuid "e50d33a5-d8ef-427b-915c-ae2a84bebe80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.8648 132.08 0)
+			(at 198.9448 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,143 +3569,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SK-3296S-01-L1:SK-3296S-01-L1")
-		(at 204.47 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b091da77-9cbb-49ef-b984-8b5cc84c2b18")
-		(property "Reference" "J1"
-			(at 217.17 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK-3296S-01-L1"
-			(at 217.17 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SK3296S01L1"
-			(at 226.06 224.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/XKB-SK-3296S-01-L1_C319020.pdf"
-			(at 226.06 324.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Toggle Switches SMD RoHS"
-			(at 204.47 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.4"
-			(at 226.06 524.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 226.06 624.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "RS Price/Stock" ""
-			(at 226.06 724.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "XKB Connectivity"
-			(at 226.06 824.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SK-3296S-01-L1"
-			(at 226.06 924.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "MP4"
-			(uuid "78049e85-c396-4ddf-89b7-de7f96c74f03")
-		)
-		(pin "1"
-			(uuid "7b3623d1-db73-4572-aeda-5b9e8c835d76")
-		)
-		(pin "3"
-			(uuid "19b73857-28fa-4d75-b63e-43286f184f71")
-		)
-		(pin "MP1"
-			(uuid "c6fc2b3d-c3f1-4029-843f-87441e228b39")
-		)
-		(pin "MP2"
-			(uuid "b7a9d019-7bb4-4477-863e-9cdc411e1d8c")
-		)
-		(pin "2"
-			(uuid "b9461fa5-fb0d-4bf6-a550-7e8d109186f8")
-		)
-		(pin "MP3"
-			(uuid "60d86054-86ac-4367-a2a7-4f0b761e4188")
-		)
-		(instances
-			(project ""
-				(path "/b324d823-8a3b-42df-b0d7-6d8c7dd09a96"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 231.14 140.97 0)
+		(at 226.06 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3680,7 +3579,7 @@
 		(fields_autoplaced yes)
 		(uuid "c598d4fc-68a2-4367-b799-79b571b7fb63")
 		(property "Reference" "#PWR08"
-			(at 231.14 147.32 0)
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +3588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 146.05 0)
+			(at 226.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 140.97 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 140.97 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 140.97 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,6 +3765,118 @@
 			(project ""
 				(path "/b324d823-8a3b-42df-b0d7-6d8c7dd09a96"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCH_Switch-XIAO:SK-3296S-01-L1")
+		(at 217.17 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae5bfc4-b8a4-47df-9e01-24eacec9d97b")
+		(property "Reference" "SW1"
+			(at 217.17 115.57 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+			)
+		)
+		(property "Value" "SK-3296S-01-L1"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+			)
+		)
+		(property "Footprint" "Switch:SW-SMD_3P-P1.50_L2.7-W6.6"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SK-3296S-01-L1"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity(中国星坤)"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C319020"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51c3e491-da75-424a-8d3e-595cf67718bc")
+		)
+		(pin "3"
+			(uuid "a4eb744e-8ca4-4b73-9e4d-54ac3237b7d2")
+		)
+		(pin "0"
+			(uuid "0f3db38d-e915-4f87-b1d7-dadbf426b0ca")
+		)
+		(pin "2"
+			(uuid "6eb7ad91-e9ac-4093-8502-d418ff0e1473")
+		)
+		(instances
+			(project ""
+				(path "/b324d823-8a3b-42df-b0d7-6d8c7dd09a96"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
